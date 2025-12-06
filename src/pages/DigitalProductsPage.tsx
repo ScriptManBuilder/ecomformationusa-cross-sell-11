@@ -31,8 +31,8 @@ const DigitalProductsPage: React.FC = () => {
               terms outlined in this policy.
             </LegalParagraph>
             <LegalParagraph>
-              Our digital products include software-as-a-service (SaaS) subscriptions, payment recovery tools, analytics 
-              dashboards, API access, and any other digital services or downloadable content we provide.
+              Our digital products include VIP membership portal access, mobile apps for benefit redemption, digital discount codes, 
+              exclusive online content, and any other digital services or member resources we provide.
             </LegalParagraph>
           </LegalSection>
 
@@ -43,22 +43,22 @@ const DigitalProductsPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Software-as-a-Service (SaaS):</strong> Cloud-based payment recovery platform accessible via web browser
+                <strong>Member Portal:</strong> Web-based platform to access all exclusive benefits, discounts, and VIP offers
               </LegalListItem>
               <LegalListItem>
-                <strong>API Access:</strong> RESTful API for integration with your e-commerce platform or systems
+                <strong>Mobile Applications:</strong> iOS and Android apps for browsing deals and redeeming perks on the go
               </LegalListItem>
               <LegalListItem>
-                <strong>Analytics & Reports:</strong> Data visualization tools, custom reports, and business intelligence features
+                <strong>Digital Discount Codes:</strong> Unique promo codes and vouchers for use at partner brands and services
               </LegalListItem>
               <LegalListItem>
-                <strong>Mobile Applications:</strong> iOS and Android apps for monitoring payment recovery performance
+                <strong>E-Tickets & Passes:</strong> Digital tickets for entertainment events, attractions, and exclusive experiences
               </LegalListItem>
               <LegalListItem>
-                <strong>Plugins & Integrations:</strong> Pre-built connectors for popular e-commerce platforms
+                <strong>Member Resources:</strong> Exclusive content, lifestyle guides, travel tips, and savings strategies
               </LegalListItem>
               <LegalListItem>
-                <strong>Documentation & Resources:</strong> Technical guides, API documentation, best practices, and training materials
+                <strong>Partner Integrations:</strong> Direct booking access with travel, dining, and entertainment partners
               </LegalListItem>
             </LegalList>
           </LegalSection>

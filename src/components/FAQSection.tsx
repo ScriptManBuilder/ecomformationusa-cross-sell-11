@@ -16,28 +16,28 @@ const FAQSection: React.FC = () => {
 
   const faqs = [
     {
-      question: 'What makes your recovery system effective?',
-      answer: 'We detect failed transactions instantly and trigger automated retry workflows with intelligent timing, optimal gateway routing, and smart customer messaging. The entire process runs on autopilot without manual intervention.'
+      question: 'What benefits do members receive?',
+      answer: 'Members enjoy exclusive access to thousands of premium discounts across shopping, travel, dining, entertainment, wellness, and lifestyle services. Save up to 70% at top brands with VIP pricing, priority reservations, and special member-only offers.'
     },
     {
-      question: 'How quickly can we get started?',
-      answer: 'Most clients are operational in 24 hours or less. Our streamlined setup integrates seamlessly with major processors including Stripe, Square, PayPal, and Authorize.net—minimal technical resources required.'
+      question: 'How quickly can I start using my perks?',
+      answer: 'Instantly! Once you become a member, you get immediate access to all exclusive benefits, discounts, and VIP perks through our easy-to-use member portal and mobile app. Start saving right away.'
     },
     {
-      question: 'What recovery rates should we expect?',
-      answer: 'Clients typically recover 15-30% of failed transactions. Results depend on industry vertical, average order value, and decline types. Our real-time dashboards let you track performance continuously.'
+      question: 'How much can I save with membership?',
+      answer: 'Members typically save $3,200+ annually through exclusive discounts and perks. Actual savings vary based on usage, but with thousands of partners offering up to 70% off, your membership pays for itself many times over.'
     },
     {
-      question: 'How do you protect sensitive information?',
-      answer: 'Absolutely. We hold PCI DSS Level 1 and SOC 2 Type II certifications. All data flows through bank-level encryption, and we never store complete card numbers. Customer security is our top priority.'
+      question: 'Is my personal information secure?',
+      answer: 'Absolutely. We use bank-level encryption and security protocols to protect all member data. Your privacy is our priority, and we never share your information with third parties without your consent.'
     },
     {
-      question: 'Which decline types can be recovered?',
-      answer: 'Our system handles insufficient funds, expired cards, incorrect details, temporary bank issues, and more. Smart algorithms identify recoverable failures and apply the most effective recovery strategy.'
+      question: 'What categories of perks are included?',
+      answer: 'Our membership covers all lifestyle areas: retail shopping, travel (hotels, flights, car rentals), dining and restaurants, entertainment (movies, concerts, events), wellness (fitness, spa), and everyday services. New partners and deals added regularly.'
     },
     {
-      question: 'What is your pricing model?',
-      answer: 'We operate on performance-based pricing—you only pay when we successfully recover a failed payment. No setup fees, no monthly charges. We succeed when you succeed, ensuring complete alignment.'
+      question: 'How does membership pricing work?',
+      answer: 'We offer flexible membership plans with simple, transparent pricing. No hidden fees or surprise charges. Many members recoup their membership cost with just one or two uses of their exclusive perks and discounts.'
     }
   ];
 
@@ -50,7 +50,7 @@ const FAQSection: React.FC = () => {
       <FAQContent>
         <FAQTitle>Common Questions Answered</FAQTitle>
         <FAQDescription>
-          Key information about our revenue recovery solution and how it works
+          Everything you need to know about your VIP membership benefits and exclusive perks
         </FAQDescription>
         <FAQList>
           {faqs.map((faq, index) => (

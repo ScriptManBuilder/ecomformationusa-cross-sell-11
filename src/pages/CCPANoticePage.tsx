@@ -39,7 +39,7 @@ const CCPANoticePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem><strong>Identifiers:</strong> Name, email address, phone number, postal address, IP address</LegalListItem>
-              <LegalListItem><strong>Commercial Information:</strong> Payment history, transaction records, purchase patterns</LegalListItem>
+              <LegalListItem><strong>Commercial Information:</strong> Membership history, benefit usage records, redemption patterns</LegalListItem>
               <LegalListItem><strong>Financial Information:</strong> Payment card details, bank account information</LegalListItem>
               <LegalListItem><strong>Internet Activity:</strong> Browsing history, search history, interaction with our website</LegalListItem>
               <LegalListItem><strong>Geolocation Data:</strong> Physical location or movements</LegalListItem>
@@ -54,7 +54,7 @@ const CCPANoticePage: React.FC = () => {
               We use personal information for the following business purposes:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Processing payments and transactions</LegalListItem>
+              <LegalListItem>Processing membership fees and benefit redemptions</LegalListItem>
               <LegalListItem>Providing customer service and support</LegalListItem>
               <LegalListItem>Communicating about our services</LegalListItem>
               <LegalListItem>Detecting and preventing fraud</LegalListItem>
@@ -71,7 +71,7 @@ const CCPANoticePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>Service providers and business partners</LegalListItem>
-              <LegalListItem>Payment processors and financial institutions</LegalListItem>
+              <LegalListItem>Payment services and financial institutions for membership billing</LegalListItem>
               <LegalListItem>Marketing and analytics providers</LegalListItem>
               <LegalListItem>Legal and regulatory authorities</LegalListItem>
               <LegalListItem>Professional advisors</LegalListItem>

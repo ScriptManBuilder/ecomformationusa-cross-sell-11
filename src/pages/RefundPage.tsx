@@ -26,7 +26,7 @@ const RefundPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Our Commitment to Customer Satisfaction</LegalSectionTitle>
             <LegalParagraph>
-              At {process.env.REACT_APP_COMPANY_NAME}, we are committed to providing high-quality payment recovery services. 
+              At {process.env.REACT_APP_COMPANY_NAME}, we are committed to providing exceptional VIP membership benefits and exclusive perks. 
               This Refund Policy outlines the circumstances under which refunds may be issued and the process for requesting a refund.
             </LegalParagraph>
             <LegalParagraph>
@@ -62,20 +62,20 @@ const RefundPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Commission-Based Services</LegalSectionTitle>
             <LegalParagraph>
-              For commission-based payment recovery services:
+              For premium membership tiers with special benefits:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Performance-Based Fees:</strong> Commission fees are charged only on successfully recovered transactions. 
-                No refunds are provided for commission fees on completed recoveries.
+                <strong>Premium Tier Fees:</strong> Premium membership fees provide access to enhanced benefits and exclusive partner offers. 
+                No refunds are provided once premium tier benefits have been accessed or activated.
               </LegalListItem>
               <LegalListItem>
-                <strong>Setup Fees:</strong> One-time setup or onboarding fees are non-refundable once services have been 
-                activated and integration has been completed.
+                <strong>Setup Fees:</strong> One-time setup or onboarding fees are non-refundable once your membership has been 
+                activated and your profile has been set up.
               </LegalListItem>
               <LegalListItem>
-                <strong>Disputed Transactions:</strong> If a recovered transaction is later disputed or reversed, we will 
-                work with you to resolve the issue, but commission fees are generally non-refundable.
+                <strong>Disputed Purchases:</strong> If a purchase made through our partner brands is disputed, we will 
+                work with you and the partner to resolve the issue, but membership fees are generally non-refundable.
               </LegalListItem>
             </LegalList>
           </LegalSection>
@@ -115,11 +115,11 @@ const RefundPage: React.FC = () => {
               The following are not eligible for refunds under any circumstances:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Completed payment recovery services and successfully recovered transactions</LegalListItem>
+              <LegalListItem>Redeemed membership benefits, discounts already used, or perks already accessed</LegalListItem>
               <LegalListItem>Custom integration or development work that has been completed</LegalListItem>
               <LegalListItem>Consultation services that have been delivered</LegalListItem>
               <LegalListItem>Access to historical data, reports, or analytics</LegalListItem>
-              <LegalListItem>Third-party services or fees (payment processor fees, gateway fees, etc.)</LegalListItem>
+              <LegalListItem>Third-party partner services, bookings, or purchases made through member discounts</LegalListItem>
               <LegalListItem>Services terminated due to violation of our Terms of Service</LegalListItem>
               <LegalListItem>Subscription fees for periods already consumed</LegalListItem>
             </LegalList>
@@ -165,7 +165,7 @@ const RefundPage: React.FC = () => {
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
               Processing times may be longer depending on your financial institution. We are not responsible for delays 
-              caused by banks or payment processors.
+              caused by banks or payment processing services.
             </LegalParagraph>
           </LegalSection>
 
@@ -218,7 +218,7 @@ const RefundPage: React.FC = () => {
               <LegalListItem>Natural disasters, pandemics, or acts of God</LegalListItem>
               <LegalListItem>Government actions, regulations, or restrictions</LegalListItem>
               <LegalListItem>Internet service provider failures or network outages</LegalListItem>
-              <LegalListItem>Third-party service disruptions (payment gateways, hosting providers)</LegalListItem>
+              <LegalListItem>Third-party service disruptions (payment services, hosting providers)</LegalListItem>
               <LegalListItem>Cyberattacks, security breaches, or malicious activities by third parties</LegalListItem>
             </LegalList>
           </LegalSection>

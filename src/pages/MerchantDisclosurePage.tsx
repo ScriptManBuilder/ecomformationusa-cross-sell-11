@@ -26,8 +26,8 @@ const MerchantDisclosurePage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Merchant Information</LegalSectionTitle>
             <LegalParagraph>
-              This disclosure provides important information about {process.env.REACT_APP_COMPANY_NAME}, the merchant 
-              providing payment recovery services. This information is provided in compliance with consumer protection 
+              This disclosure provides important information about {process.env.REACT_APP_COMPANY_NAME}, the service provider 
+              providing VIP membership and lifestyle benefits services. This information is provided in compliance with consumer protection 
               laws and payment card industry regulations.
             </LegalParagraph>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
@@ -65,12 +65,12 @@ const MerchantDisclosurePage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Nature of Business</LegalSectionTitle>
             <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME} is a payment recovery service provider that operates on behalf of 
-              e-commerce merchants and online businesses. Our services include:
+              {process.env.REACT_APP_COMPANY_NAME} is a premium membership service provider that partners with 
+              VIP members and lifestyle benefit subscribers. Our services include:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Failed Payment Recovery:</strong> Automated retry and recovery of declined or failed payment transactions
+                <strong>Exclusive Member Benefits:</strong> Access to premium discounts, VIP perks, and lifestyle rewards across partner brands
               </LegalListItem>
               <LegalListItem>
                 <strong>Customer Communication:</strong> Email and SMS notifications to customers regarding payment issues
@@ -82,11 +82,11 @@ const MerchantDisclosurePage: React.FC = () => {
                 <strong>Account Management:</strong> Tools for customers to update payment information and manage subscriptions
               </LegalListItem>
               <LegalListItem>
-                <strong>Analytics and Reporting:</strong> Data insights for merchants regarding payment recovery performance
+                <strong>Member Portal:</strong> Easy access to view benefits, redeem offers, and track savings across all categories
               </LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
-              We act as a payment service provider and merchant of record for transactions processed through our platform. 
+              We act as the membership service provider for all subscriptions processed through our platform. 
               Established in {process.env.REACT_APP_COMPANY_BIRTH}, we serve e-commerce businesses across various industries.
             </LegalParagraph>
           </LegalSection>
@@ -99,10 +99,10 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Primary Descriptor:</strong> "{process.env.REACT_APP_COMPANY_NAME}" or billing descriptor as configured by the merchant
+                <strong>Primary Descriptor:</strong> "{process.env.REACT_APP_COMPANY_NAME}" or billing descriptor for membership services
               </LegalListItem>
               <LegalListItem>
-                <strong>Alternative Descriptors:</strong> May include the merchant's business name followed by our company name
+                <strong>Alternative Descriptors:</strong> May include our brand name followed by "VIP Membership" or similar designation
               </LegalListItem>
               <LegalListItem>
                 <strong>Phone Number:</strong> {process.env.REACT_APP_PHONE_DISPLAY} will appear on your statement for customer service inquiries
@@ -121,7 +121,7 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Payment Processors:</strong> We use industry-leading payment processors including Stripe and PayPal 
+                <strong>Payment Services:</strong> We use industry-leading secure payment services including Stripe and PayPal 
                 to securely process transactions
               </LegalListItem>
               <LegalListItem>
@@ -137,7 +137,7 @@ const MerchantDisclosurePage: React.FC = () => {
                 <strong>Authorization Holds:</strong> A temporary authorization hold may appear before the final charge is processed
               </LegalListItem>
               <LegalListItem>
-                <strong>Failed Transactions:</strong> If a transaction fails, you will be notified and given an opportunity 
+                <strong>Membership Issues:</strong> If a membership payment issue occurs, you will be notified and given an opportunity 
                 to update payment information
               </LegalListItem>
             </LegalList>
@@ -177,8 +177,8 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Merchant Refunds:</strong> Refunds for products or services purchased from merchants must be requested 
-                directly from the merchant according to their refund policy
+                <strong>Membership Refunds:</strong> Refunds for membership fees must be requested
+                according to our membership refund policy
               </LegalListItem>
               <LegalListItem>
                 <strong>Service Fees:</strong> Refunds for our service fees are governed by our Refund Policy, available on our website
@@ -213,7 +213,7 @@ const MerchantDisclosurePage: React.FC = () => {
               <LegalListItem><strong>Bank Transfers:</strong> ACH transfers for qualified business accounts</LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
-              All payment methods are processed through PCI-DSS compliant payment processors. We do not store complete 
+              All membership payments are processed through PCI-DSS compliant payment services. We do not store complete 
               credit card information on our servers.
             </LegalParagraph>
           </LegalSection>
@@ -225,10 +225,10 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Subscription Fees:</strong> Monthly or annual subscription fees are charged to merchants, not end-users
+                <strong>Membership Fees:</strong> Monthly or annual membership fees are charged to members for VIP access
               </LegalListItem>
               <LegalListItem>
-                <strong>Commission Fees:</strong> We may charge merchants a commission on successfully recovered transactions
+                <strong>Partner Commissions:</strong> We may earn commissions from partner brands when members redeem exclusive offers
               </LegalListItem>
               <LegalListItem>
                 <strong>No Hidden Fees:</strong> We do not charge end-users additional fees for payment processing beyond 
@@ -384,7 +384,7 @@ const MerchantDisclosurePage: React.FC = () => {
                 billing period after cancellation
               </LegalListItem>
               <LegalListItem>
-                <strong>Failed Recurring Payments:</strong> If a recurring payment fails, we will notify you and attempt to 
+                <strong>Recurring Membership Fees:</strong> If a recurring membership fee cannot be processed, we will notify you and attempt to 
                 retry the charge with updated payment information
               </LegalListItem>
             </LegalList>
@@ -431,7 +431,7 @@ const MerchantDisclosurePage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Contact Information</LegalSectionTitle>
             <LegalParagraph>
-              For any questions about this Merchant Disclosure or our payment processing services:
+              For any questions about this disclosure or our membership services:
             </LegalParagraph>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               {process.env.REACT_APP_COMPANY_NAME}

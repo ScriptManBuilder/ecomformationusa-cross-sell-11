@@ -74,7 +74,7 @@ const SupportPage: React.FC = () => {
         </svg>
       ),
       title: 'Account Setup',
-      description: 'Help with creating and configuring your payment recovery account'
+      description: 'Help with creating your VIP membership account and accessing benefits'
     },
     {
       icon: (
@@ -83,7 +83,7 @@ const SupportPage: React.FC = () => {
         </svg>
       ),
       title: 'Customer Management',
-      description: 'Questions about managing customer data and payment recovery processes'
+      description: 'Questions about your membership profile, preferences, and benefit usage'
     },
     {
       icon: (
@@ -92,7 +92,7 @@ const SupportPage: React.FC = () => {
         </svg>
       ),
       title: 'Analytics & Reports',
-      description: 'Assistance with viewing and understanding recovery analytics'
+      description: 'Assistance with viewing and understanding your savings analytics'
     },
     {
       icon: (
@@ -141,7 +141,7 @@ const SupportPage: React.FC = () => {
               <HeroImage src="/heroSupport3.png" alt="Customer Support" />
             </HeroImageWrapper>
             <HeroContent>
-              <HeroTitle>Customer Care for Payment Recovery</HeroTitle>
+              <HeroTitle>VIP Member Support & Assistance</HeroTitle>
               <HeroDescription>Need help? We're here to support you.</HeroDescription>
             
             <ContactInfo>

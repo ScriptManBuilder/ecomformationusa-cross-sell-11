@@ -26,12 +26,12 @@ const EndUserTermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>1. Acceptance of Terms</LegalSectionTitle>
             <LegalParagraph>
-              These End-User Terms of Service ("End-User Terms") govern your use of services provided by 
-              {process.env.REACT_APP_COMPANY_NAME} when you interact with our payment recovery platform as an end-user 
-              or customer of our merchant clients.
+              These End-User Terms of Service ("Terms") govern your relationship with 
+              {process.env.REACT_APP_COMPANY_NAME} when you interact with our VIP membership platform as a member 
+              accessing exclusive benefits and discounts.
             </LegalParagraph>
             <LegalParagraph>
-              By completing a transaction, making a payment, or interacting with our payment recovery communications, 
+              By registering for membership, accessing benefits, or using our platform, 
               you acknowledge that you have read, understood, and agree to be bound by these End-User Terms.
             </LegalParagraph>
             <LegalParagraph>
@@ -42,19 +42,19 @@ const EndUserTermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>2. Service Description</LegalSectionTitle>
             <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME} provides payment recovery services on behalf of merchant clients. 
+              {process.env.REACT_APP_COMPANY_NAME} provides VIP membership services offering exclusive discounts and lifestyle benefits. 
               Our services include:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Payment Retry Services:</strong> Automated retry of declined payment transactions using updated 
+                <strong>Member Benefits:</strong> Access to exclusive discounts, VIP perks, and lifestyle rewards using your 
                 payment information
               </LegalListItem>
               <LegalListItem>
-                <strong>Payment Reminders:</strong> Email and SMS notifications reminding you of pending or failed payments
+                <strong>Member Notifications:</strong> Email and SMS updates about new benefits, exclusive offers, and special perks
               </LegalListItem>
               <LegalListItem>
-                <strong>Account Recovery Links:</strong> Secure links allowing you to update payment information or complete purchases
+                <strong>Account Access Links:</strong> Secure links allowing you to update your profile or access exclusive member benefits
               </LegalListItem>
               <LegalListItem>
                 <strong>Customer Support:</strong> Assistance with payment issues, account questions, and transaction inquiries
@@ -64,8 +64,7 @@ const EndUserTermsPage: React.FC = () => {
               </LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
-              We act as a service provider to merchants and process payments on their behalf. The underlying transaction 
-              is between you and the merchant.
+              We partner with thousands of premium brands to provide members with exclusive access to savings and VIP experiences.
             </LegalParagraph>
           </LegalSection>
 
@@ -93,7 +92,7 @@ const EndUserTermsPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Authorization:</strong> You authorize us to process payment on behalf of the merchant for the amount 
+                <strong>Authorization:</strong> You authorize us to process membership fees for access to exclusive benefits and 
                 specified in the transaction
               </LegalListItem>
               <LegalListItem>
@@ -106,10 +105,10 @@ const EndUserTermsPage: React.FC = () => {
               </LegalListItem>
               <LegalListItem>
                 <strong>Retry Authorization:</strong> By providing updated payment information, you authorize retry attempts 
-                for previously declined transactions
+                for accessing member benefits and exclusive offers
               </LegalListItem>
               <LegalListItem>
-                <strong>Third-Party Processors:</strong> Payments are processed through third-party payment processors 
+                <strong>Third-Party Services:</strong> Membership fees are processed through secure third-party payment services 
                 (Stripe, PayPal, etc.) subject to their terms
               </LegalListItem>
             </LegalList>
@@ -151,7 +150,7 @@ const EndUserTermsPage: React.FC = () => {
                 <strong>Transactional Communications:</strong> Payment receipts, transaction confirmations, and account notifications
               </LegalListItem>
               <LegalListItem>
-                <strong>Payment Reminders:</strong> Email and SMS reminders about pending, failed, or upcoming payments
+                <strong>Membership Reminders:</strong> Email and SMS reminders about membership renewals, exclusive offers, and account updates
               </LegalListItem>
               <LegalListItem>
                 <strong>Customer Support:</strong> Responses to inquiries and support requests
@@ -195,24 +194,24 @@ const EndUserTermsPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Merchant Responsibility:</strong> Refund requests should be directed to the merchant, not to 
+                <strong>Membership Cancellation:</strong> Cancellation requests should follow our membership cancellation policy as 
                 {process.env.REACT_APP_COMPANY_NAME}
               </LegalListItem>
               <LegalListItem>
-                <strong>Refund Policy:</strong> The merchant's refund policy governs all refund requests
+                <strong>Refund Policy:</strong> Our membership refund policy governs all refund requests
               </LegalListItem>
               <LegalListItem>
-                <strong>Processing Assistance:</strong> We will assist in facilitating refunds as directed by the merchant
+                <strong>Processing Assistance:</strong> We will assist members with refund requests according to our policy
               </LegalListItem>
               <LegalListItem>
-                <strong>Chargebacks:</strong> Before initiating a chargeback, contact the merchant and us to resolve the issue
+                <strong>Chargebacks:</strong> Before initiating a chargeback, contact our member support team to resolve the issue
               </LegalListItem>
               <LegalListItem>
                 <strong>Disputed Charges:</strong> Report unauthorized or incorrect charges to {process.env.REACT_APP_EMAIL_SUPPORT} 
                 within 60 days
               </LegalListItem>
               <LegalListItem>
-                <strong>Investigation:</strong> We will investigate disputed charges and work with you and the merchant to resolve
+                <strong>Investigation:</strong> We will investigate disputed charges and work with you to resolve membership-related issues
               </LegalListItem>
             </LegalList>
           </LegalSection>
@@ -230,7 +229,7 @@ const EndUserTermsPage: React.FC = () => {
                 Payment information is encrypted and processed in accordance with PCI-DSS standards
               </LegalListItem>
               <LegalListItem>
-                We share data with merchants only as necessary to complete transactions and provide services
+                We share data with partner brands only as necessary to provide member benefits and exclusive offers
               </LegalListItem>
               <LegalListItem>
                 You have rights regarding your personal data, including access, correction, and deletion
@@ -254,13 +253,13 @@ const EndUserTermsPage: React.FC = () => {
                 We do not guarantee that services will be uninterrupted, timely, secure, or error-free
               </LegalListItem>
               <LegalListItem>
-                We do not warrant that payment processing will be successful or that transactions will not be declined
+                We do not warrant continuous availability of all benefits or that specific partner offers will always be accessible
               </LegalListItem>
               <LegalListItem>
                 We are not responsible for issues caused by your payment provider, bank, or card issuer
               </LegalListItem>
               <LegalListItem>
-                We disclaim all warranties, express or implied, including warranties of merchantability and fitness for 
+                We disclaim all warranties, express or implied, including warranties of availability of specific partner offers and fitness for 
                 a particular purpose
               </LegalListItem>
             </LegalList>
@@ -287,7 +286,7 @@ const EndUserTermsPage: React.FC = () => {
                 We are not liable for losses resulting from unauthorized use of your account if you failed to secure your credentials
               </LegalListItem>
               <LegalListItem>
-                We are not liable for merchant actions, product quality, or fulfillment issues
+                We are not liable for partner brand actions, service quality, or fulfillment of third-party offers
               </LegalListItem>
               <LegalListItem>
                 We are not responsible for service interruptions caused by third parties, network issues, or circumstances 
@@ -318,7 +317,7 @@ const EndUserTermsPage: React.FC = () => {
             <LegalList>
               <LegalListItem>For violation of these End-User Terms or applicable laws</LegalListItem>
               <LegalListItem>For suspected fraudulent activity or security concerns</LegalListItem>
-              <LegalListItem>At the request of a merchant or payment processor</LegalListItem>
+              <LegalListItem>At the request of a partner brand or payment service provider</LegalListItem>
               <LegalListItem>For any reason with or without notice</LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>

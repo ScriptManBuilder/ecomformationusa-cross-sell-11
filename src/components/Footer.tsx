@@ -19,10 +19,10 @@ import {
 
 const Footer: React.FC = () => {
   const brandName = process.env.REACT_APP_BRAND_NAME;
-  const companyName = process.env.REACT_APP_COMPANY_NAME || 'Goldleaf Goods LLC';
+  const companyName = process.env.REACT_APP_COMPANY_NAME || 'Ecomformationusa Inc';
   const companyAddress = process.env.REACT_APP_COMPANY_ADDRESS || 'E 2ND ST 5830 Casper WY US 82609';
   const companyPhone = process.env.REACT_APP_PHONE_DISPLAY || '+1 517-258-3818';
-  const supportEmail = process.env.REACT_APP_EMAIL_SUPPORT || 'support@goldleafrevenuerecovery.com';
+  const supportEmail = process.env.REACT_APP_EMAIL_SUPPORT || 'support@ecomvipperks.com';
   const companyBirth = process.env.REACT_APP_COMPANY_BIRTH || 'May 2025';
 
   const handleScrollTo = (id: string) => {
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
               </svg>
-              {process.env.REACT_APP_BRAND_NAME || 'Relyxor'}
+              {process.env.REACT_APP_BRAND_NAME || 'VipPerks'}
             </FooterLogo>
             <CompanyInfo>
               <p>{companyName}</p>

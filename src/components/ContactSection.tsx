@@ -54,25 +54,25 @@ const ContactSection: React.FC = () => {
 
   const features = [
     {
-      title: 'Smart Automation',
-      description: 'AI-driven recovery workflows capture lost transactions and rescue abandoned purchases—boosting your revenue while saving valuable time.'
+      title: 'Exclusive Discounts',
+      description: 'Access members-only pricing and special deals across thousands of premium brands, services, and experiences—saving you money every day.'
     },
     {
-      title: 'Actionable Analytics',
-      description: 'Comprehensive reporting reveals decline patterns and customer trends, empowering you to optimize payment flow and reduce future failures.'
+      title: 'VIP Benefits',
+      description: 'Enjoy priority access, exclusive perks, and special member treatment across travel, dining, entertainment, and lifestyle categories.'
     },
     {
-      title: 'Effortless Setup',
-      description: 'Rapid integration with your e-commerce stack requires zero coding. Simply connect and start recovering revenue immediately.'
+      title: 'Simple Membership',
+      description: 'Easy-to-use platform with instant access to all your benefits. Mobile app included for perks on the go, anytime, anywhere.'
     }
   ];
 
   return (
     <ContactContainer id="contact">
       <ContactContent>
-        <ContactTitle>Ready to reclaim what's yours?</ContactTitle>
+        <ContactTitle>Ready to unlock exclusive perks?</ContactTitle>
         <ContactDescription>
-          Connect with us to discover how our platform rescues failed transactions and drives revenue growth.
+          Connect with us to learn more about membership benefits, VIP discounts, and how to start saving today.
         </ContactDescription>
         
         <ContactGrid>
@@ -90,7 +90,7 @@ const ContactSection: React.FC = () => {
                 ✓ Thanks! Your message was delivered. We'll respond shortly.
               </div>
             )}
-            <p>Complete the form to connect with our revenue recovery team.</p>
+            <p>Complete the form to learn more about VIP membership benefits.</p>
             
             {/* Hidden field with your Web3Forms access key */}
             <input type="hidden" name="access_key" value={process.env.REACT_APP_WEB3FORMS_KEY} />
@@ -121,7 +121,7 @@ const ContactSection: React.FC = () => {
               <FormLabel>Message</FormLabel>
               <FormTextarea 
                 name="message"
-                placeholder="Share details about your business and revenue recovery goals..." 
+                placeholder="Tell us about your lifestyle interests and what perks you're most excited about..." 
                 rows={5}
                 required 
                 disabled={isSubmitting}

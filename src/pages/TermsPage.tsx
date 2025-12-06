@@ -28,7 +28,7 @@ const TermsPage: React.FC = () => {
             <LegalParagraph>
               These Terms and Conditions ("Terms") constitute a legally binding agreement between you and {process.env.REACT_APP_COMPANY_NAME} 
               ("Company," "we," "us," or "our") concerning your access to and use of our services, including our website and 
-              payment recovery solutions.
+              premium membership benefits platform.
             </LegalParagraph>
             <LegalParagraph>
               By accessing or using our services, you agree that you have read, understood, and agree to be bound by these Terms. 
@@ -39,15 +39,16 @@ const TermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Services Description</LegalSectionTitle>
             <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME} provides payment recovery and revenue optimization services designed to help 
-              businesses recover failed transactions and reduce payment abandonment. Our services include:
+              {process.env.REACT_APP_COMPANY_NAME} provides exclusive VIP membership services offering premium lifestyle benefits, 
+              discounts, and perks. Our services include:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Automated payment retry logic and failed transaction recovery</LegalListItem>
-              <LegalListItem>Customer communication and payment reminder systems</LegalListItem>
-              <LegalListItem>Analytics and reporting on payment performance</LegalListItem>
-              <LegalListItem>Integration with e-commerce platforms and payment processors</LegalListItem>
-              <LegalListItem>Consultation and support services</LegalListItem>
+              <LegalListItem>Access to exclusive discounts up to 70% off at thousands of premium brands</LegalListItem>
+              <LegalListItem>VIP travel benefits including hotels, flights, and vacation packages</LegalListItem>
+              <LegalListItem>Dining rewards and priority reservations at top restaurants</LegalListItem>
+              <LegalListItem>Entertainment perks for movies, concerts, shows, and events</LegalListItem>
+              <LegalListItem>Wellness and lifestyle service discounts</LegalListItem>
+              <LegalListItem>Member support and concierge services</LegalListItem>
             </LegalList>
           </LegalSection>
 
@@ -77,9 +78,9 @@ const TermsPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>Fees are charged according to your selected plan or agreement</LegalListItem>
-              <LegalListItem>Payments are processed through secure third-party payment processors</LegalListItem>
+              <LegalListItem>Membership fees are processed through secure third-party payment services</LegalListItem>
               <LegalListItem>Subscription fees are billed in advance on a recurring basis</LegalListItem>
-              <LegalListItem>Commission-based fees are calculated based on successfully recovered transactions</LegalListItem>
+              <LegalListItem>Premium tier fees are based on your selected benefit level and services accessed</LegalListItem>
               <LegalListItem>All fees are non-refundable except as required by law or stated in our Refund Policy</LegalListItem>
             </LegalList>
           </LegalSection>

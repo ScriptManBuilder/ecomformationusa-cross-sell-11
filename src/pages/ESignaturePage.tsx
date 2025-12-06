@@ -38,7 +38,7 @@ const ESignaturePage: React.FC = () => {
               By using our services and agreeing to this disclosure, you consent to:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Conduct transactions electronically</LegalListItem>
+              <LegalListItem>Manage membership enrollment electronically</LegalListItem>
               <LegalListItem>Receive disclosures, notices, and other documents electronically</LegalListItem>
               <LegalListItem>Use electronic signatures to sign agreements and documents</LegalListItem>
               <LegalListItem>Accept that electronic signatures have the same legal effect as handwritten signatures</LegalListItem>

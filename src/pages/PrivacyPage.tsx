@@ -28,7 +28,7 @@ const PrivacyPage: React.FC = () => {
             <LegalParagraph>
               {process.env.REACT_APP_COMPANY_NAME} ("we," "us," or "our") is committed to protecting your privacy. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use 
-              our payment recovery services and visit our website.
+              our VIP membership services and visit our website.
             </LegalParagraph>
             <LegalParagraph>
               By using our services, you consent to the data practices described in this policy. If you do not agree 
@@ -56,7 +56,7 @@ const PrivacyPage: React.FC = () => {
               Customer Data
             </LegalParagraph>
             <LegalList>
-              <LegalListItem><strong>Transaction Data:</strong> Payment attempts, success/failure status, transaction amounts</LegalListItem>
+              <LegalListItem><strong>Membership Data:</strong> Benefit access, redemption history, perk usage patterns</LegalListItem>
               <LegalListItem><strong>Customer Information:</strong> Names, email addresses, payment details of your customers</LegalListItem>
               <LegalListItem><strong>Communication Records:</strong> Email correspondence, support tickets, payment notifications</LegalListItem>
             </LegalList>
@@ -77,7 +77,7 @@ const PrivacyPage: React.FC = () => {
               We use the collected information for various purposes:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem><strong>Service Delivery:</strong> Process transactions, recover failed payments, send payment reminders</LegalListItem>
+              <LegalListItem><strong>Service Delivery:</strong> Manage memberships, provide access to benefits, send member communications</LegalListItem>
               <LegalListItem><strong>Account Management:</strong> Create and maintain your account, authenticate users, provide support</LegalListItem>
               <LegalListItem><strong>Communication:</strong> Send service updates, transaction notifications, marketing communications</LegalListItem>
               <LegalListItem><strong>Analytics:</strong> Analyze usage patterns, improve service performance, develop new features</LegalListItem>
@@ -93,11 +93,11 @@ const PrivacyPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Service Providers:</strong> Payment processors, email service providers, analytics platforms, 
+                <strong>Service Providers:</strong> Payment services, email providers, analytics platforms, partner brands, 
                 cloud hosting providers who assist in delivering our services
               </LegalListItem>
               <LegalListItem>
-                <strong>Business Partners:</strong> E-commerce platforms, payment gateways, and integration partners 
+                <strong>Business Partners:</strong> Partner brands, lifestyle service providers, and benefit partners 
                 with whom you've authorized data sharing
               </LegalListItem>
               <LegalListItem>
@@ -142,7 +142,7 @@ const PrivacyPage: React.FC = () => {
               We retain your information for as long as necessary to fulfill the purposes outlined in this Privacy Policy:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem><strong>Active Accounts:</strong> Account and transaction data retained while your account is active</LegalListItem>
+              <LegalListItem><strong>Active Accounts:</strong> Account and membership data retained while your account is active</LegalListItem>
               <LegalListItem><strong>Closed Accounts:</strong> Data retained for 7 years after account closure for legal and compliance purposes</LegalListItem>
               <LegalListItem><strong>Transaction Records:</strong> Financial records retained for 10 years as required by law</LegalListItem>
               <LegalListItem><strong>Marketing Data:</strong> Deleted within 3 years of last interaction or upon opt-out request</LegalListItem>

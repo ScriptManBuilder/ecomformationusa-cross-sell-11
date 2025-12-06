@@ -27,7 +27,7 @@ const DataProcessingPage: React.FC = () => {
             <LegalSectionTitle>1. Definitions and Interpretation</LegalSectionTitle>
             <LegalParagraph>
               This Data Processing Agreement ("DPA") forms part of the service agreement between you ("Data Controller") 
-              and {process.env.REACT_APP_COMPANY_NAME} ("Data Processor") for the provision of payment recovery services.
+              and {process.env.REACT_APP_COMPANY_NAME} ("Data Processor") for the provision of VIP membership services.
             </LegalParagraph>
             <LegalParagraph>
               For the purposes of this DPA:
@@ -59,17 +59,17 @@ const DataProcessingPage: React.FC = () => {
               The Data Processor shall process Personal Data only for the following purposes:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Providing payment recovery services as described in the service agreement</LegalListItem>
-              <LegalListItem>Analyzing transaction data to identify recovery opportunities</LegalListItem>
-              <LegalListItem>Communicating with customers regarding payment recovery</LegalListItem>
-              <LegalListItem>Processing payments and managing financial transactions</LegalListItem>
+              <LegalListItem>Providing VIP membership services as described in the service agreement</LegalListItem>
+              <LegalListItem>Managing member accounts, preferences, and benefit access</LegalListItem>
+              <LegalListItem>Communicating exclusive offers, discounts, and member benefits</LegalListItem>
+              <LegalListItem>Processing membership fees and managing subscription billing</LegalListItem>
               <LegalListItem>Providing customer support and technical assistance</LegalListItem>
               <LegalListItem>Generating reports and analytics for the Data Controller</LegalListItem>
               <LegalListItem>Complying with legal obligations and regulatory requirements</LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
               The categories of Personal Data processed include: names, email addresses, phone numbers, billing addresses, 
-              payment information, transaction history, and communication records.
+              member preferences, benefit usage history, and communication records.
             </LegalParagraph>
             <LegalParagraph>
               The categories of Data Subjects include: customers, potential customers, and authorized representatives of 
@@ -199,7 +199,7 @@ const DataProcessingPage: React.FC = () => {
                 <strong>Cloud Infrastructure Providers:</strong> AWS, Microsoft Azure (data hosting and storage)
               </LegalListItem>
               <LegalListItem>
-                <strong>Payment Processors:</strong> Stripe, PayPal (payment processing services)
+                <strong>Payment Services:</strong> Stripe, PayPal (secure payment processing for membership fees)
               </LegalListItem>
               <LegalListItem>
                 <strong>Email Service Providers:</strong> SendGrid, Amazon SES (transactional email delivery)

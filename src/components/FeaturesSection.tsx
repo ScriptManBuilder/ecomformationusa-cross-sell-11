@@ -16,61 +16,61 @@ const FeaturesSection: React.FC = () => {
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"/>
         </svg>
       ),
-      title: 'Intelligent Retry Engine',
-      description: 'AI-powered algorithms analyze decline patterns and execute perfectly timed retry attempts with optimal gateway routing to maximize success rates.',
+      title: 'Shopping Discounts',
+      description: 'Save up to 70% at thousands of retail partners including fashion, electronics, home goods, and more. Exclusive member pricing on brands you love.',
       color: '#3388dd'
     },
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+          <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
         </svg>
       ),
-      title: 'Instant Detection',
-      description: 'Lightning-fast failure recognition with automated recovery workflows triggered within seconds—capturing revenue before customers abandon their purchase.',
+      title: 'Travel Perks',
+      description: 'Enjoy exclusive rates on hotels, flights, car rentals, and vacation packages. Members-only access to luxury resorts and premium travel experiences worldwide.',
       color: '#0066cc'
     },
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+          <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/>
         </svg>
       ),
-      title: 'Performance Insights',
-      description: 'Real-time analytics dashboards showcase recovery rates, revenue impact, decline reasons, and actionable optimization recommendations.',
+      title: 'Dining Rewards',
+      description: 'Get VIP treatment at top restaurants with exclusive discounts and priority reservations. Save on fine dining, casual eateries, and food delivery services.',
       color: '#ff6b6b'
     },
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+          <path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/>
         </svg>
       ),
-      title: 'Frictionless Experience',
-      description: 'Invisible recovery process preserves trust and satisfaction. Customers enjoy hassle-free resolution while you recapture lost sales automatically.',
+      title: 'Entertainment Access',
+      description: 'Premium discounts on movies, concerts, shows, theme parks, and sporting events. VIP seating options and exclusive member-only experiences available.',
       color: '#ec4899'
     },
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"/>
+          <path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/>
         </svg>
       ),
-      title: 'Quick Integration',
-      description: 'Plug-and-play setup with major processors including Stripe, Square, PayPal, and Authorize.net. Launch in under 24 hours with minimal IT support.',
+      title: 'Wellness Benefits',
+      description: 'Access exclusive deals on fitness memberships, spa services, wellness programs, and health products. Invest in your well-being while saving money.',
       color: '#a855f7'
     },
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
         </svg>
       ),
-      title: 'Risk Management',
-      description: 'Advanced fraud screening distinguishes legitimate failures from suspicious activity, protecting your bottom line while maintaining regulatory compliance.',
+      title: 'Lifestyle Services',
+      description: 'Premium discounts on everyday services including automotive care, home improvement, professional services, and subscription platforms.',
       color: '#00d4aa'
     }
   ];
@@ -78,9 +78,9 @@ const FeaturesSection: React.FC = () => {
   return (
     <FeaturesContainer id="features">
       <FeaturesContent>
-        <SectionTitle>Enterprise-Grade Recovery Technology</SectionTitle>
+        <SectionTitle>Exclusive Member Benefits</SectionTitle>
         <SectionDescription>
-          Cutting-edge capabilities engineered to transform declined payments into confirmed revenue.
+          Premium perks and unbeatable discounts designed to enhance your lifestyle.
         </SectionDescription>
         <FeaturesGrid>
           {features.map((feature, index) => (

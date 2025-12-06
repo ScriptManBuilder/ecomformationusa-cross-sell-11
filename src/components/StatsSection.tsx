@@ -14,27 +14,27 @@ import {
 const StatsSection: React.FC = () => {
   const stats = [
     {
-      title: 'Success Rate',
-      description: 'Our automated platform consistently recovers 30% of failed transactions through intelligent retry strategies and optimized timing',
-      value: '30%',
+      title: 'Maximum Savings',
+      description: 'Members save up to 70% on premium brands, travel, dining, and entertainment with exclusive VIP pricing and special member-only offers',
+      value: '70%',
       background: 'linear-gradient(135deg, #00d4aa 0%, #00bfa5 100%)'
     },
     {
-      title: 'Customer Churn',
-      description: 'Seven out of ten shoppers never return after experiencing a payment decline—making rapid recovery essential for retention',
-      value: '71%',
+      title: 'Brand Partners',
+      description: 'Access thousands of exclusive deals across retail, travel, dining, wellness, and entertainment from trusted premium brand partners',
+      value: '5,000+',
       background: 'linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%)'
     },
     {
-      title: 'Decline Impact',
-      description: 'Nearly one in five transactions fail at checkout—costing merchants billions in recoverable revenue each year worldwide',
-      value: '18%',
+      title: 'Annual Value',
+      description: 'Average member savings per year through exclusive discounts, perks, and VIP benefits across all lifestyle categories',
+      value: '$3,200',
       background: 'linear-gradient(135deg, #0066cc 0%, #3388dd 100%)'
     },
     {
-      title: 'Annual Loss',
-      description: 'E-commerce businesses lose nearly half a trillion dollars to preventable payment failures that could be recovered with smart technology',
-      value: '$460B',
+      title: 'Member Satisfaction',
+      description: 'Members love their VIP benefits and exclusive perks, consistently rating their experience as excellent with ongoing engagement',
+      value: '96%',
       background: 'linear-gradient(135deg, #3388dd 0%, #0066cc 100%)'
     }
   ];
@@ -42,9 +42,9 @@ const StatsSection: React.FC = () => {
   return (
     <StatsContainer id="stats">
       <StatsContent>
-        <StatsSectionTitle>The Price of Inaction</StatsSectionTitle>
+        <StatsSectionTitle>Member Savings & Benefits</StatsSectionTitle>
         <StatsSectionDescription>
-          Every failed payment represents lost profit. Learn how our technology converts decline scenarios into revenue opportunities.
+          Discover how our members save thousands annually with exclusive perks, discounts, and VIP access to premium lifestyle experiences.
         </StatsSectionDescription>
         <StatsGrid>
           {stats.map((stat, index) => (

@@ -12,7 +12,7 @@ import {
 } from '../styles/HeroSection.styles';
 
 const HeroSection: React.FC = () => {
-  const appSubdomain = process.env.REACT_APP_APP_SUBDOMAIN || 'app.goldleafrevenuerecovery.com';
+  const appSubdomain = process.env.REACT_APP_APP_SUBDOMAIN || 'app.ecomvipperks.com';
 
   const handleLaunchApp = () => {
     // Temporarily disabled - demo site under construction
@@ -29,22 +29,22 @@ const HeroSection: React.FC = () => {
   return (
     <HeroContainer>
       <HeroContent>
-        <Tagline>Powering Growth for Smart Merchants</Tagline>
+        <Tagline>Exclusive Access for Members</Tagline>
         <HeroTitle>
-          Transform Declines Into Wins.
-          <Highlight>Reclaim What's Yours.</Highlight>
+          Premium Perks. Unbeatable Deals.
+          <Highlight>Save More Every Day.</Highlight>
         </HeroTitle>
         <HeroDescription>
-          Stop losing money to payment failures. Our advanced recovery platform uses AI-driven retry logic, 
-          smart timing algorithms, and customer behavior analysis to salvage up to 30% of unsuccessful 
-          transactions—all while maintaining a seamless buyer experience.
+          Unlock exclusive discounts, VIP benefits, and premium lifestyle perks. Members enjoy up to 70% off 
+          at thousands of top brands, restaurants, travel destinations, and entertainment venues. 
+          Experience the lifestyle you deserve with savings on everything you love.
         </HeroDescription>
         <CTAButtonGroup>
           <CTAButtonPrimary onClick={handleLaunchApp}>
-            Access Platform →
+            Explore Benefits →
           </CTAButtonPrimary>
           <CTAButtonSecondary onClick={handleScheduleCall}>
-            Book Consultation
+            Join Today
           </CTAButtonSecondary>
         </CTAButtonGroup>
       </HeroContent>
