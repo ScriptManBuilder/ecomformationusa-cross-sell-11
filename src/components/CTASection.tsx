@@ -54,10 +54,12 @@ const CTASection: React.FC = () => {
   return (
     <CTAContainer id="how-it-works">
       <CTAContent>
-        <CTATitle>Start Enjoying Exclusive Member Perks</CTATitle>
-        <CTADescription>
-          Join thousands of members already saving big with VIP access to premium discounts, lifestyle benefits, and exclusive deals.
-        </CTADescription>
+        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+          <CTATitle>Start Enjoying Exclusive Member Perks</CTATitle>
+          <CTADescription>
+            Join thousands of members already saving big with VIP access to premium discounts, lifestyle benefits, and exclusive deals.
+          </CTADescription>
+        </div>
         
         <CTAFeaturesGrid>
           {features.map((feature, index) => (
@@ -73,7 +75,9 @@ const CTASection: React.FC = () => {
           ))}
         </CTAFeaturesGrid>
         
-        <CTASectionButton onClick={handleGetStarted}>Claim Your Benefits →</CTASectionButton>
+        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+          <CTASectionButton onClick={handleGetStarted}>Claim Your Benefits →</CTASectionButton>
+        </div>
       </CTAContent>
     </CTAContainer>
   );
