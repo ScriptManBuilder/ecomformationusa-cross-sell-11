@@ -73,14 +73,13 @@ const TermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Payment Terms</LegalSectionTitle>
             <LegalParagraph>
-              Our services are provided on a subscription or commission basis, as detailed in your service agreement. 
-              Payment terms include:
+              All products and services offered on this website are sold as a one-time purchase.
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Fees are charged according to your selected plan or agreement</LegalListItem>
-              <LegalListItem>Membership fees are processed through secure third-party payment services</LegalListItem>
-              <LegalListItem>Subscription fees are billed in advance on a recurring basis</LegalListItem>
-              <LegalListItem>Premium tier fees are based on your selected benefit level and services accessed</LegalListItem>
+              <LegalListItem>Payments are charged once at the time of purchase</LegalListItem>
+              <LegalListItem>No recurring or automatic billing will occur</LegalListItem>
+              <LegalListItem>You will not be enrolled in a subscription</LegalListItem>
+              <LegalListItem>Payments are processed through secure third-party payment processors</LegalListItem>
               <LegalListItem>All fees are non-refundable except as required by law or stated in our Refund Policy</LegalListItem>
             </LegalList>
           </LegalSection>
