@@ -30,18 +30,21 @@ const MerchantDisclosurePage: React.FC = () => {
               providing VIP membership and lifestyle benefits services. This information is provided in compliance with consumer protection 
               laws and payment card industry regulations.
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
+            {/* <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
               Legal Business Name:
             </LegalParagraph>
             <LegalParagraph>
               {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
+            </LegalParagraph> */}
+            {/* <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Business Address:
-            </LegalParagraph>
-            <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
+            </LegalParagraph> */}
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_address.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Contact Information:
             </LegalParagraph>
@@ -284,8 +287,7 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Step 1 - Contact Us:</strong> Reach out to our customer service team at {process.env.REACT_APP_EMAIL_SUPPORT} 
-                or {process.env.REACT_APP_PHONE_DISPLAY} with your concerns
+                <strong>Step 1 - Contact Us:</strong> Reach out to our customer service team at {process.env.REACT_APP_EMAIL_SUPPORT}                 or {process.env.REACT_APP_PHONE_DISPLAY} with your concerns
               </LegalListItem>
               <LegalListItem>
                 <strong>Step 2 - Investigation:</strong> We will investigate your dispute and respond within 5-7 business days
@@ -433,21 +435,12 @@ const MerchantDisclosurePage: React.FC = () => {
             <LegalParagraph>
               For any questions about this disclosure or our membership services:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Attention: Customer Service Department
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Business Hours: Monday - Friday, 9:00 AM - 6:00 PM EST
             </LegalParagraph>

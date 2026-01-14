@@ -132,8 +132,7 @@ const RefundPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Contact Support:</strong> Email us at {process.env.REACT_APP_EMAIL_SUPPORT} or call 
-                {process.env.REACT_APP_PHONE_DISPLAY} with your refund request
+                <strong>Contact Support:</strong> Email us at {process.env.REACT_APP_EMAIL_SUPPORT} or call                 {process.env.REACT_APP_PHONE_DISPLAY} with your refund request
               </LegalListItem>
               <LegalListItem>
                 <strong>Provide Information:</strong> Include your account email, transaction ID or invoice number, 
@@ -237,18 +236,12 @@ const RefundPage: React.FC = () => {
             <LegalParagraph>
               For refund requests or questions about this policy, please contact:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ marginTop: '1.5rem', fontSize: '0.875rem', color: '#5a6c7d' }}>
               Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
             </LegalParagraph>

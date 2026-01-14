@@ -26,8 +26,7 @@ const EndUserTermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>1. Acceptance of Terms</LegalSectionTitle>
             <LegalParagraph>
-              These End-User Terms of Service ("Terms") govern your relationship with 
-              {process.env.REACT_APP_COMPANY_NAME} when you interact with our VIP membership platform as a member 
+              These End-User Terms of Service ("Terms") govern your relationship with               {process.env.REACT_APP_COMPANY_NAME} when you interact with our VIP membership platform as a member 
               accessing exclusive benefits and discounts.
             </LegalParagraph>
             <LegalParagraph>
@@ -372,15 +371,12 @@ const EndUserTermsPage: React.FC = () => {
             <LegalParagraph>
               For questions, concerns, or support regarding these End-User Terms or our services:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600 }}>
               Phone: {process.env.REACT_APP_PHONE_DISPLAY}
             </LegalParagraph>
